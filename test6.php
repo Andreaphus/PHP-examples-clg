@@ -1,0 +1,10 @@
+<?php
+$a=5;
+$b=10;
+$c=15;
+var_dump($a==$b);
+var_dump($a>$b);
+var_dump($a<$b);
+var_dump($a<=$b);
+var_dump($a>=$b);
+?>
