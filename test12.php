@@ -1,8 +1,9 @@
 <?php
 $num=5;
-for($i=0;$i<$num;i++)
+$b=1;
+for($i=1;$i<=$num;$i++)
 {
-print $num;
-$num=$i*$num;
+$b=$b*$i;
 }
+print "Factorial of $num is $b"
 ?>
